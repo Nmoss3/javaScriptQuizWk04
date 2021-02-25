@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>JavaScript Quiz!</title>
+</head>
+<body>
+    <!--Link to High Scores page-->
+    <a href="HighScores.html">View High Scores</a>
+
+    <div id="wrapper">
+        <!--Timer-->
+        <div id="currentTime"></div>
+        <!--Quiz content-->
+        <div id="questionsDiv">
+            <h1>JavaScript Quiz!</h1>
+            <p>Show your knowledge of JavaScript within the time limit. If you answer incorrectly, your score and time left will be penalized.</p>
+            <ul id="choicesUl"></ul>
+
+            <!--Start button-->
+            <button id="startTime">Start Quiz</button>
+        </div>
+    </div>
+
+    <!--link to questions script-->
+    <script src="assets/questions.js"></script>
+    
+</body>
+
+
+</html>
